@@ -1,0 +1,47 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#titulo {
+    background-color: #222222;
+    color: white;
+    padding: 25px;
+}
+
+.introducao {
+    color: #333333;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.casa {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.grifinoria {
+    background-color: #740001;
+    color: white;
+}
+
+.sonserina {
+    background-color: #1a472a;
+    color: white;
+}
+
+.corvinal {
+    background-color: #0e1a40;
+    color: white;
+}
+
+.lufalufa {
+    background-color: #ecb939;
+    color: black;
+}
+
+a {
+    color: #333333;
+}
