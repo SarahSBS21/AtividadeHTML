@@ -1,0 +1,87 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#cabecalho {
+    background-color: #222222;
+    color: white;
+    padding: 25px;
+}
+
+.introducao {
+    margin: 25px;
+    color: #333333;
+}
+
+#titulo-casas {
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.casa {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.grifinoria {
+    background-color: #740001;
+    color: white;
+}
+
+.sonserina {
+    background-color: #1a472a;
+    color: white;
+}
+
+.corvinal {
+    background-color: #0e1a40;
+    color: white;
+}
+
+.lufalufa {
+    background-color: #ecb939;
+    color: black;
+}
+
+.destaque {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #222222;
+    color: white;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
