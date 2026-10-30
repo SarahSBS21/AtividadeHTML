@@ -2,23 +2,34 @@ body {
     background-color: #eeeeee;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
 }
 
-#titulo {
+#cabecalho {
     background-color: #222222;
     color: white;
     padding: 25px;
 }
 
 .introducao {
-    color: #333333;
-    font-size: 18px;
     margin: 25px;
+    color: #333333;
+}
+
+#titulo-casas {
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .casa {
-    padding: 15px;
-    margin: 20px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
     border-radius: 10px;
 }
 
@@ -42,6 +53,35 @@ body {
     color: black;
 }
 
-a {
-    color: #333333;
+.destaque {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #222222;
+    color: white;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
 }
