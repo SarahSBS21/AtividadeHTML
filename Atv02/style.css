@@ -27,8 +27,8 @@ body {
 }
 
 .casa {
-    width: 200px;
-    padding: 20px;
+    width: 240px;
+    padding: 20px auto;
     margin: 10px;
     border-radius: 10px;
 }
