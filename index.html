@@ -1,72 +1,58 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Bem-vindo a Hogwarts</title>
+    <title>Harry Potter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 id="Titulo"> Bem-vindo a Hogwarts!</h1>
 
-    <header id="cabecalho">
-        <h1>Bem-vindo a Hogwarts!</h1>
-        <p>Uma escola de magia e bruxaria.</p>
-    </header>
+     <p class="introducao">
+        Hogwarts é uma escola de magia e bruxaria onde jovens bruxos
+        aprendem a desenvolver seus poderes. A escola possui quatro
+        casas, cada uma com suas próprias características.
+    </p>
+    <h2>Conheça as casas de Hogwarts</h2>
 
-    <div class="introducao">
-        <h2>Conheça Hogwarts</h2>
-
+    <div class="casa grifinoria">
+        <h3>Grifinória</h3>
         <p>
-            Hogwarts é uma escola de magia onde jovens bruxos aprendem
-            sobre o mundo mágico. A escola possui quatro casas,
-            cada uma com suas próprias características.
+            Conhecida pela coragem, bravura e determinação.
+            Seu símbolo é o leão.
         </p>
     </div>
 
-    <h2 id="titulo-casas">As quatro casas de Hogwarts</h2>
-
-    <div class="container">
-
-        <div class="casa grifinoria">
-            <h3>Grifinória</h3>
-            <p>
-                Seus alunos são conhecidos pela
-                <span class="destaque">coragem</span>
-                e determinação.
-            </p>
-        </div>
-
-        <div class="casa sonserina">
-            <h3>Sonserina</h3>
-            <p>
-                Valoriza a
-                <span class="destaque">ambição</span>
-                e a astúcia.
-            </p>
-        </div>
-
-        <div class="casa corvinal">
-            <h3>Corvinal</h3>
-            <p>
-                Seus alunos valorizam a
-                <span class="destaque">inteligência</span>
-                e a sabedoria.
-            </p>
-        </div>
-
-        <div class="casa lufalufa">
-            <h3>Lufa-Lufa</h3>
-            <p>
-                Valoriza a
-                <span class="destaque">lealdade</span>
-                e a dedicação.
-            </p>
-        </div>
-
+    <div class="casa sonserina">
+        <h3>Sonserina</h3>
+        <p>
+            Valoriza a ambição, a astúcia e a liderança.
+            Seu símbolo é a serpente.
+        </p>
     </div>
+
+    <div class="casa corvinal">
+        <h3>Corvinal</h3>
+        <p>
+            Seus alunos valorizam a inteligência, a criatividade
+            e a sabedoria. Seu símbolo é a águia.
+        </p>
+    </div>
+
+    <div class="casa lufalufa">
+        <h3>Lufa-Lufa</h3>
+        <p>
+            Valoriza a lealdade, a paciência, a justiça e a dedicação.
+            Seu símbolo é o texugo.
+        </p>
+    </div>
+
     <footer>
+
     </footer>
-    <h2>Características das casas</h2>
+
+    <!--atv2-->
+
+   <h2>Características das casas</h2>
 
     <ul>
         <li>Grifinória: coragem</li>
@@ -117,29 +103,117 @@
     </p>
 
     <footer>
-        
+    
     </footer>
-<h2>Escolha a atividade</h2>
+
+    <!--atv3-->>
+    <h2>Escolha a atividade</h2>
     <div class="container">
         <div class="atividade">
             <h3>Forms</h3>
             <p>Formulário</p>
             <a href="forms.html">Acessar</a>
-        </div>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <label for="casa">Escolha sua casa:</label>
+                <select id="casa" name="casa">
+                    <option>Grifinória</option>
+                    <option>Sonserina</option>
+                    <option>Lufa-Lufa</option>
+                    <option>Corvinal</option>
+                </select>
+                <p>Qual matéria você prefere?</p>
+
+                <input type="radio" id="pocoes" name="materia" value="pocoes">
+                <label for="pocoes">Poções</label>
+
+                <input type="radio" id="feiticos" name="materia" value="feiticos">
+                <label for="feiticos">Feitiços</label>
+
+                <input type="radio" id="criaturas" name="materia" value="criaturas">
+                <label for="criaturas">Criaturas Mágicas</label>
+
+            </form>
+            <a href="index.html">Voltar para a página principal </a>
+    </div>
         <div class="atividade">
             <h3>CSS Grid</h3>
             <p>Organizando linhas e colunas.</p>
             <a href="grid.html">Acessar</a>
+            <main class="conteudo">
+
+        <h2>Grid de Hogwarts</h2>
+
+        <div class="grade">
+
+            <div class="item-grid item-grande">
+                Grifinória
+            </div>
+
+            <div class="item-grid">
+                Sonserina
+            </div>
+
+            <div class="item-grid">
+                Corvinal
+            </div>
+
+            <div class="item-grid">
+                Lufa-Lufa
+            </div>
+
+            <div class="item-grid">
+                Hogwarts
+            </div>
+
+        </div>
+
+        <a class="voltar" href="index.html">
+            ← Voltar à página principal
+        </a>
+
+    </main>
         </div>
         <div class="atividade">
             <h3>Flexbox</h3>
             <p>Alinhamento de elementos</p>
             <a href="flexbox.html">Acessar</a>
+             <main class="conteudo">
+
+        <h2>Flexbox de Hogwarts</h2>
+
+        <div class="flex-container">
+
+            <div class="item-flex">
+                Grifinória
+            </div>
+
+            <div class="item-flex">
+                Sonserina
+            </div>
+
+            <div class="item-flex">
+                Corvinal
+            </div>
+
+            <div class="item-flex">
+                Lufa-Lufa
+            </div>
+
+        </div>
+
+        <a class="voltar" href="index.html">
+            ← Voltar à página principal
+        </a>
+
+    </main>
 
         </div>
     </div>
-</body>
-</html>
-</body>
-</html>
 
+</body>
+</html>
