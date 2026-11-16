@@ -120,3 +120,34 @@ button {
     color: darkred;
     font-weight: bold;
 }
+
+/* ATIVIDADE 05 */
+
+/* TABELAS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* LISTAS */
+
+ul, ol {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
