@@ -1,1 +1,51 @@
+<form>
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" name="nome">
 
+    <br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade">
+
+    <br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <label for="casa">Escolha sua casa:</label>
+
+    <select id="casa" name="casa">
+        <option value="grifinoria">Grifinória</option>
+        <option value="sonserina">Sonserina</option>
+        <option value="corvinal">Corvinal</option>
+        <option value="lufalufa">Lufa-Lufa</option>
+    </select>
+
+    <br><br>
+
+    <p>Você já conhece Hogwarts?</p>
+
+    <input type="radio" id="sim" name="conhece" value="sim">
+    <label for="sim">Sim</label>
+
+    <input type="radio" id="nao" name="conhece" value="nao">
+    <label for="nao">Não</label>
+
+    <br><br>
+
+    <label for="mensagem">
+        Por que deseja estudar em Hogwarts?
+    </label>
+
+    <br>
+
+    <textarea id="mensagem" name="mensagem"
+              rows="4" cols="40"></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
