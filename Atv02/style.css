@@ -1,0 +1,10 @@
+.informacao {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 20px;
+}
+
+.destaque {
+    color: darkred;
+    font-weight: bold;
+}
