@@ -116,5 +116,130 @@
         <span class="destaque">qualidades especiais</span>.
     </p>
 </div>
+
+    <h2>Formulário de inscrição em Hogwarts</h2>
+
+<!--formulario-->
+<p>
+    Preencha seus dados para realizar sua
+    inscrição na Escola de Magia e Bruxaria.
+</p>
+
+<form>
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" name="nome">
+
+    <br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade">
+
+    <br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <label for="casa">Escolha sua casa:</label>
+
+    <select id="casa" name="casa">
+        <option value="grifinoria">Grifinória</option>
+        <option value="sonserina">Sonserina</option>
+        <option value="corvinal">Corvinal</option>
+        <option value="lufalufa">Lufa-Lufa</option>
+    </select>
+
+    <br><br>
+
+    <p>Você já conhece Hogwarts?</p>
+
+    <input type="radio" id="sim" name="conhece" value="sim">
+    <label for="sim">Sim</label>
+
+    <input type="radio" id="nao" name="conhece" value="nao">
+    <label for="nao">Não</label>
+
+    <br><br>
+
+    <label for="mensagem">
+        Por que deseja estudar em Hogwarts?
+    </label>
+
+    <br>
+
+    <textarea id="mensagem" name="mensagem"
+              rows="4" cols="40"></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+
+<!-- CSS GRID -->
+
+<h2>CSS Grid - Casas de Hogwarts</h2>
+
+<p>
+    O CSS Grid permite organizar elementos
+    em linhas e colunas.
+</p>
+
+<div class="grid-container">
+
+    <div class="grid-item grifinoria">
+        <h3>Grifinória</h3>
+        <p>Coragem e bravura</p>
+    </div>
+
+    <div class="grid-item sonserina">
+        <h3>Sonserina</h3>
+        <p>Ambição e determinação</p>
+    </div>
+
+    <div class="grid-item corvinal">
+        <h3>Corvinal</h3>
+        <p>Inteligência e sabedoria</p>
+    </div>
+
+    <div class="grid-item lufalufa">
+        <h3>Lufa-Lufa</h3>
+        <p>Lealdade e dedicação</p>
+    </div>
+
+</div>
+
+
+<!-- FLEXBOX -->
+
+<h2>Flexbox - Matérias de Hogwarts</h2>
+
+<p>
+    O Flexbox permite organizar elementos
+    lado a lado.
+</p>
+
+<div class="flex-container">
+
+    <div class="flex-item">
+        <h3>Poções</h3>
+        <p>Preparação de poções mágicas.</p>
+    </div>
+
+    <div class="flex-item">
+        <h3>Feitiços</h3>
+        <p>Aprendizado de feitiços.</p>
+    </div>
+
+    <div class="flex-item">
+        <h3>Transfiguração</h3>
+        <p>Transformação de objetos.</p>
+    </div>
+
+</div>
+</body>
+</html>
 </body>
 </html>
